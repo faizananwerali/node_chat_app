@@ -1,6 +1,0 @@
-DirectoryIndex disabled
-RewriteEngine On
-RewriteRule ^$ http://127.0.0.1:54572/ [P,L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ https://127.0.0.1:54572/$1 [P,L]
